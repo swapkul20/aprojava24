@@ -1,0 +1,18 @@
+package com.techlabs.hibernate.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.techlabs.hibernate.entity.Instructor;
+import com.techlabs.hibernate.repository.InstructorRepository;
+
+public class InstructorServiceImpl implements InstructorService {
+
+	@Autowired
+	private InstructorRepository instructorRepo;
+	@Override
+	public Instructor add(Instructor instructor) {
+		
+		return instructorRepo.save(instructor);
+	}
+
+}

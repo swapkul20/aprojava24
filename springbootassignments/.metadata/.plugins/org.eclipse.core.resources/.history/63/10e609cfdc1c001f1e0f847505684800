@@ -1,0 +1,7 @@
+spring.application.name=06-jpaadvancemappins-app
+
+spring.datasource.url=jdbc:mysql://localhost:3306/studentdb5
+spring.datasource.username=root
+spring.datasource.password=root
+spring.jpa.hibernate.ddl-auto=create-drop
+spring.jpa.show-sql=true

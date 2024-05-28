@@ -1,0 +1,13 @@
+package com.techlabs.spring;
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		Harddisk harddisk = new Harddisk(10);
+		Computer computer = new Computer("Apple", harddisk);
+		System.out.println(computer);
+
+	}
+
+}
